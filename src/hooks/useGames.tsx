@@ -22,7 +22,7 @@ const useGames = () => {
       .get<FetchGamesResponse>("/games", { signal: controller.signal })
       .then((res) => setGames(res.data.results))
       .catch((err) => {
-        if (err instanceof CanceledError) return;
+        if (err.name === "AbortError") return;
         setError(err.message);
       });
     return () => controller.abort();
