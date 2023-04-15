@@ -24,7 +24,7 @@ const useGames = () => {
       .then((res) => setGames(res.data.results))
       .catch((err) => {
         if (err.name === "AbortError") return;
-        setError(err.message);
+
       });
     return () => controller.abort();
   }, []);
