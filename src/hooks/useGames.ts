@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import { AxiosRequestConfig, CanceledError } from "axios";
 import apiClient from "../services/api-client";
 
 export interface Platform {
@@ -36,7 +37,8 @@ const useGames = () => {
         setLoading(false);
       })
       .catch((err) => {
-        if (err.name === "AbortError") return;
+        if (err instanceof CanceledError) return;
+        setError(err.message)
         setLoading(false);
       });
     return () => controller.abort();
