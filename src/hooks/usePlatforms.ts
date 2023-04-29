@@ -1,6 +1,4 @@
 import { useQuery } from "@tanstack/react-query";
-import PlatformIconList from "../components/PlatformIconList";
-import PlatformSelector from "../components/PlatformSelector";
 import apiClient from "../services/api-client";
 import { FetchResponse } from "./useData";
 import { Platform } from "./useGames";
