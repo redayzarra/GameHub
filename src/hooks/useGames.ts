@@ -1,4 +1,4 @@
-import { useInfiniteQuery, useQuery } from "@tanstack/react-query";
+import { useInfiniteQuery } from "@tanstack/react-query";
 import { GameQuery } from "../App";
 import APIClient, { FetchResponse } from "../services/api-client";
 import { Platform } from "./usePlatforms";
@@ -22,7 +22,7 @@ const useGames = (gameQuery: GameQuery) =>
       apiClient
         .getAll({
           params: {
-            genres: gameQuery.genre?.id, 
+            genres: gameQuery.genreId, 
             platforms: gameQuery.platform?.id,
             ordering: gameQuery.sortOrder,
             search: gameQuery.searchText,
