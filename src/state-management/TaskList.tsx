@@ -2,7 +2,6 @@ import { useReducer } from "react";
 import tasksReducer from "./reducers/taskReducer";
 
 const TaskList = () => {
-  const [tasks, dispatch] = useReducer(tasksReducer, []);
 
   return (
     <>

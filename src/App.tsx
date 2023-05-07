@@ -1,9 +1,11 @@
-import Counter from "./state-management/Counter";
+import { useReducer } from "react";
 import LoginStatus from "./state-management/LoginStatus";
-import TaskList from "./state-management/TaskList";
+import tasksReducer from "./state-management/reducers/taskReducer";
 
 function App() {
-  return <LoginStatus />;
+  const [tasks, dispatch] = useReducer(tasksReducer, []);
+
+  return <><NavBar /> <Homepage /></>
 }
 
 export default App;
