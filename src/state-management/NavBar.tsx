@@ -2,7 +2,7 @@ import LoginStatus from "./auth/LoginStatus";
 import useCounterStore from "./counter/store";
 
 const NavBar = () => {
-  const { counter } = useCounterStore();
+  const counter = useCounterStore(s => s.counter);
 
   return (
     <nav className="navbar d-flex justify-content-between">
