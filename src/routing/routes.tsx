@@ -5,6 +5,7 @@ import UserList from "./UserList";
 const router = createBrowserRouter([
   { path: "/", element: <HomePage /> },
   { path: "/users", element: <UserList /> },
+  { path: "/users", element: <UserList /> },
 ]);
 
 export default router;
