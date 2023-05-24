@@ -1,13 +1,15 @@
-import React from "react";
-import UserListPage from "./UserList";
+import { Outlet } from "react-router";
+import UserList from "./UserList";
 
 const UsersPage = () => {
   return (
     <div className="row">
       <div className="col">
-        <UserListPage />
+        <UserList />
       </div>
-      <div className="col"></div>
+      <div className="col">
+        <Outlet />
+      </div>
     </div>
   );
 };
