@@ -1,6 +1,6 @@
 import { HStack, Image } from "@chakra-ui/react";
 import { Link } from "react-router-dom";
-import logo from "../assets/logo.webp";
+import logo from "../assets/MyLogo.png";
 import ColorModeSwitch from "./ColorModeSwitch";
 import SearchInput from "./SearchInput";
 
