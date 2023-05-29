@@ -18,7 +18,19 @@ const theme = extendTheme({
       700: "#202020",
       800: "121212",
       900: "#111"
-    }
+    },
+    yellow: {
+      50: '#FFFBEA',
+      100: '#FFF3B0',
+      200: '#FCE588',
+      300: '#F6E05E',
+      400: '#F7C948',
+      500: '#ECC94B', // This will be your new default yellow color
+      600: '#D69E2E',
+      700: '#B45309',
+      800: '#92400E',
+      900: '#78350F',
+    },
    }
   });
 
