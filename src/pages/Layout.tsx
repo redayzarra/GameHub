@@ -5,8 +5,8 @@ import { Box } from "@chakra-ui/react";
 const Layout = () => {
   return (
     <>
-      <NavBar />
-      <Box padding={5}>
+      <Box padding={2}>
+        <NavBar />
         <Outlet />
       </Box>
     </>
