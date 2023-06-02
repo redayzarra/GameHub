@@ -6,6 +6,20 @@ The application consumes data from the [RAWG API](https://rawg.io/apidocs), one 
 
 With this application, users can browse through a vast library of video games. Each game on the platform is presented with detailed information, including high-quality screenshots and videos, offering a sneak peek into the gameplay.
 
+<div align="center">
+ 
+  <img src="https://github.com/redayzarra/web-gamesite-project/assets/113388793/847c956e-ddc0-4251-a1e2-8f77dc0fec12" alt="HomePage">
+  <p>Home Page</p>
+
+</div>
+
+<div align="center">
+ 
+  <img src="https://github.com/redayzarra/web-gamesite-project/assets/113388793/8de5d5a6-8eb0-40b8-ae80-cf448484f0be" alt="GameDetailsPage">
+  <p>Game Details Page</p>
+ 
+</div>
+
 
 ## Features
 
