@@ -15,11 +15,10 @@ With this application, users can browse through a vast library of video games. E
 
 <div align="center">
  
-  <img src="https://github.com/redayzarra/web-gamesite-project/assets/113388793/8de5d5a6-8eb0-40b8-ae80-cf448484f0be" alt="GameDetailsPage">
+  <img src="https://github.com/redayzarra/web-gamesite-project/assets/113388793/949be238-21f5-47d5-a2ca-c5549ff131cf" alt="GameDetailsPage">
   <p>Game Details Page</p>
  
 </div>
-
 
 ## Features
 
