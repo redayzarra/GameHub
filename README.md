@@ -1,8 +1,8 @@
 # Game Hub - Video Game Showcase
 
-Video Game Showcase is a comprehensive web application built using React and TypeScript. This project is part of a project-based course offered by Code with Mosh, aiming to provide practical experience in developing modern web applications. The application is designed to create an engaging platform for gamers to explore and discover various video games. 
+Game Hub is a comprehensive web application built using React and TypeScript. This project is part of a project-based course offered by [Code with Mosh](https://codewithmosh.com/p/ultimate-react-part1), aiming to provide practical experience in developing modern web applications. The application is designed to create an engaging platform for gamers to explore and discover various video games. 
 
-The application consumes data from the RAWG API, one of the largest video game databases that provides comprehensive details about games including titles, thumbnails, screenshots, videos, and many more. As part of the course, the project incorporates essential aspects of a modern web application including responsiveness, accessibility, and efficient state management, among others.
+The application consumes data from the [RAWG API](https://rawg.io/apidocs), one of the largest video game databases that provides comprehensive details about games including titles, thumbnails, screenshots, videos, and many more. As part of the course, the project incorporates essential aspects of a modern web application including responsiveness, accessibility, and efficient state management, among others.
 
 With this application, users can browse through a vast library of video games. Each game on the platform is presented with detailed information, including high-quality screenshots and videos, offering a sneak peek into the gameplay.
 
